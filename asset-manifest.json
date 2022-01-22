@@ -1,15 +1,18 @@
 {
   "files": {
     "main.css": "/DUDA/static/css/main.ab3cd807.chunk.css",
-    "main.js": "/DUDA/static/js/main.dea7ef7e.chunk.js",
-    "main.js.map": "/DUDA/static/js/main.dea7ef7e.chunk.js.map",
+    "main.js": "/DUDA/static/js/main.666e2275.chunk.js",
+    "main.js.map": "/DUDA/static/js/main.666e2275.chunk.js.map",
     "runtime-main.js": "/DUDA/static/js/runtime-main.9af185ab.js",
     "runtime-main.js.map": "/DUDA/static/js/runtime-main.9af185ab.js.map",
-    "static/js/2.ba890543.chunk.js": "/DUDA/static/js/2.ba890543.chunk.js",
-    "static/js/2.ba890543.chunk.js.map": "/DUDA/static/js/2.ba890543.chunk.js.map",
+    "static/js/2.d6deceea.chunk.js": "/DUDA/static/js/2.d6deceea.chunk.js",
+    "static/js/2.d6deceea.chunk.js.map": "/DUDA/static/js/2.d6deceea.chunk.js.map",
     "index.html": "/DUDA/index.html",
     "static/css/main.ab3cd807.chunk.css.map": "/DUDA/static/css/main.ab3cd807.chunk.css.map",
-    "static/js/2.ba890543.chunk.js.LICENSE.txt": "/DUDA/static/js/2.ba890543.chunk.js.LICENSE.txt",
+    "static/js/2.d6deceea.chunk.js.LICENSE.txt": "/DUDA/static/js/2.d6deceea.chunk.js.LICENSE.txt",
+    "static/media/Doubt.7d857b7b.png": "/DUDA/static/media/Doubt.7d857b7b.png",
+    "static/media/Expert.24d2db31.png": "/DUDA/static/media/Expert.24d2db31.png",
+    "static/media/pngwing.com (1).ddd8492b.png": "/DUDA/static/media/pngwing.com (1).ddd8492b.png",
     "static/media/pngwing.com (3).68efc8b7.png": "/DUDA/static/media/pngwing.com (3).68efc8b7.png",
     "static/media/pngwing.com (4).b297df79.png": "/DUDA/static/media/pngwing.com (4).b297df79.png",
     "static/media/pngwing.com (5).887f6d49.png": "/DUDA/static/media/pngwing.com (5).887f6d49.png",
@@ -18,8 +21,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.9af185ab.js",
-    "static/js/2.ba890543.chunk.js",
+    "static/js/2.d6deceea.chunk.js",
     "static/css/main.ab3cd807.chunk.css",
-    "static/js/main.dea7ef7e.chunk.js"
+    "static/js/main.666e2275.chunk.js"
   ]
 }
