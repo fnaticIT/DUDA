@@ -1,3 +1,7 @@
+import Img1 from "../../images/Doubt.png";
+import Img2 from "../../images/Expert.png";
+import Img3 from "../../images/pngwing.com.png";
+import Img4 from "../../images/pngwing.com (1).png";
 export const homeObjOne = {
   id: "about",
   lightBg: false,
@@ -8,7 +12,7 @@ export const homeObjOne = {
   description: "We aim to bring together the best experts from top tier colleges and provide them with the best mentorship. We believe in helping people to achieve their goals and we are here to help you achieve yours.",
   buttonLabel: "Get started",
   imgStart: false,
-  img: "/images/Doubt.png",
+  img: Img1,
   alt: "car",
   dark: true,
   primary: true,
@@ -26,7 +30,7 @@ export const homeObjTwo = {
   description: "After submitting simple details , we will get in touch with you and help you assign a mentor for minimal fees.We care for our mentors and hence 90% of fees goes directly to them",
   buttonLabel: "Learn More",
   imgStart: true,
-  img: "/images/Expert.png",
+  img: Img2,
   alt: "Piggybanck",
   dark: false,
   primary: false,
@@ -44,7 +48,7 @@ export const homeObjThree = {
   description: "After submitting the form we will contact you and help you assign a mentor for minimal fees.Currently we charge Rs. 150 per hour",
   buttonLabel: "Book session",
   imgStart: true,
-  img: "/images/pngwing.com.png",
+  img: Img3,
   alt: "car",
   primary: false,
   darkText: true,
@@ -62,7 +66,7 @@ export const homeObjFour = {
   description: "After submitting the form we will contact you and help you assign a mentor for minimal fees.Currently we charge Rs. 150 per hour",
   buttonLabel: "Book session",
   imgStart: false,
-  img: "/images/pngwing.com (1).png",
+  img: Img4,
   alt: "car",
   primary: true,
   darkText: false,
