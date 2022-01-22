@@ -7,9 +7,9 @@ function App() {
   return (
     <Router>
       <Switch>
-        <Route path='/' component={Home} exact />
-        <Route path='/signin' component={SigninPage} exact />
-        <Route path="/submit" component={Forms} exact />
+        <Route  path='/' component={Home} exact />
+        <Route  path='/signin' component={SigninPage} exact />
+        <Route  path="/submit" component={Forms} exact />
       </Switch>
     </Router>
   );
