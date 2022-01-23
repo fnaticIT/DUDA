@@ -4,6 +4,7 @@ import axios from "axios";
 import { FaWindows } from "react-icons/fa";
 import { useHistory } from "react-router";
 import Navbar from "../Navbar";
+//import emailjs from "emailjs-com";
 const Forms = () => {
   const name = useRef();
   const email = useRef();
@@ -28,6 +29,10 @@ const Forms = () => {
     await axios.post("http://localhost:5000/form", form);
     document.getElementById("one").reset();
     window.alert("Your form has been submitted");
+    
+  
+
+
     history.push("/");
   };
   const [isOpen, setIsOpen] = useState(false);
@@ -37,10 +42,11 @@ const Forms = () => {
   };
 
   return (
-    <>
+    <div style={{background:"black"}}>
     
+    <p  style={{color:"white",paddingLeft:20,paddingRight:20,paddingTop:10,paddingBottom:10,opacity:"0.8",borderRadius:35,borderWidth:8,marginLeft:"2%",marginRight:"2%"}}>You won't be chargeed anything now , after filling the form we will find the right mentor and contact you and if you are satisfied and we can proceed with the payment and your session will be booked. Don't worry its completely safe and secure.</p>
     <div className="bodyx">
-      <div id="signup" className="login-box" style={{marginTop:"20px"}}>
+      <div id="signup" className="login-box" style={{marginTop:"50px"}}>
         <h2>Book</h2>
         <form id="one">
           <div className="user-box">
@@ -87,7 +93,7 @@ const Forms = () => {
         </form>
       </div>
     </div>
-    </>
+    </div>
   );
 };
 

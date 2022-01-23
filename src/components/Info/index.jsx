@@ -23,69 +23,69 @@ const Info = ({ lightBg, id, imgStart, topLine, lightText, headline, darkText, d
                     <Subtitle>
                       <div style={{ display: "flex", flexDirection: "row" }}>
                         <div>
-                          <ul style={{ padding: 20 }}>
+                          <ul style={{ padding: 25 }}>
                             <li>
                               <strong>
-                                <span>1. </span>
+                                
                                 <span>Counselling</span>
                               </strong>
                             </li>
                             <li>
                               <strong>
-                                <span>2. </span>
+
                                 <span>Career guidance</span>
                               </strong>
                             </li>
                             <li>
                               <strong>
-                                <span>3. </span>
-                                <span>Competitive programming</span>
+
+                                <span>Photoshop</span>
                               </strong>
                             </li>
                             <li>
                               <strong>
-                                <span>4. </span>
-                                <span>Full Stack Development</span>
-                              </strong>
-                            </li>
-                            <li>
-                              <strong>
-                                <span>5. </span>
+                                
                                 <span>ML / AI</span>
+                              </strong>
+                            </li>
+                            <li>
+                              <strong>
+                                
+                                <span>Web Development</span>
                               </strong>
                             </li>
                           </ul>
                         </div>
                         <div>
-                          <ul style={{ padding: 20 }}>
+                          <ul style={{ padding: 25 }}>
                             <li>
                               <strong>
-                                <span>1. </span>
-                                <span>Counselling</span>
+                                
+                                <span>Academics</span>
                               </strong>
                             </li>
                             <li>
                               <strong>
-                                <span>2. </span>
-                                <span>Career guidance</span>
+                                
+                                <span>DSA</span>
                               </strong>
                             </li>
                             <li>
                               <strong>
-                                <span>3. </span>
-                                <span>Competitive programming</span>
+                              
+                                <span>Finance</span>
                               </strong>
                             </li>
                             <li>
                               <strong>
-                                <span>4. </span>
-                                <span>Full Stack Development</span>
+                                
+                                <span>JEE, GRE ...</span>
                               </strong>
                             </li>
                             <li>
                               <strong>
-                                <span>5. </span>
-                                <span>ML / AI</span>
+                                
+                                <span style={{color:"blue"}}>And more ...</span>
                               </strong>
                             </li>
                           </ul>

@@ -25,14 +25,14 @@ export default function SignIn() {
       <div className="" style={{display:"flex",justifyContent:"center"}}>
         <form ref={form} onSubmit={sendEmail} style={{padding:20}} >
           <h3 style={{ color: "white" ,padding:30}}>Share your Feedback and Queries</h3>
-          <h4 style={{color:"wheat"}}>Name</h4>
-          <input type="text" name="user_name" className="i sp" />
-          <h4 style={{color:"wheat"}}>Email</h4>
-          <input type="email" name="user_email" className="i sp" />
-          <h4 style={{color:"wheat"}}>Message</h4>
-          <textarea name="message" className="i sp" />
-          <h4 style={{color:"wheat"}}></h4>
-          <input type="submit" value="Send" className="b bnew" style={{backgroundColor:"wheat",padding:10,borderRadius:15,textDecoration:"none",width:"50%",marginBottom:40}} />
+          <h4 style={{color:"white"}}>Name</h4>
+          <input type="text" name="user_name" className="i sp" style={{color:"black",padding:10,background:""}}/>
+          <h4 style={{color:"white"}}>Email</h4>
+          <input type="email" name="user_email" className="i sp" style={{color:"black",padding:10,background:""}}/>
+          <h4 style={{color:"white"}}>Message</h4>
+          <textarea name="message" className="i sp" style={{color:"black",padding:10,background:""}}/>
+          <h4 style={{color:"white"}}></h4>
+          <input type="submit" value="Send" className="b bnew" style={{backgroundColor:"skyblue", borderColor:"white",color:"white",padding:12,borderRadius:25,textDecoration:"none",width:"40%",marginBottom:40,cursor:"pointer",fontSize:15,fontWeight:"200"}} />
         </form>
       </div>
     </div>

@@ -47,7 +47,7 @@ const Hero = () => {
             }}
           />
         </HeroH1>
-        <HeroP>Have a Doubt? In need of counselling? Just Book a session and get helped by experts from top tier colleges.</HeroP>
+        <HeroP>Have a Doubt? In need of counselling? Just Book a session and get helped by experts from top IITS / NITS.</HeroP>
         <HeroBtnWrapper>
           <Button to="signup" onMouseEnter={onHover} onMouseLeave={onHover} primary="true" dark="true" smooth={true} duration={500} spy={true} exact="true" offset={-80}>
             Book Session {hover ? <ArrowForward /> : <ArrowRight />}

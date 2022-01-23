@@ -1,7 +1,7 @@
 {
   "name": "mm",
   "version": "0.1.0",
-  "homepage": "https://fnaticIT.github.io/DUDA",
+  "homepage": "http://theduda.site/",
   "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",

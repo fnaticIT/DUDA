@@ -7,22 +7,23 @@ html {
   margin: 0;
   padding: 10;
   font-family: sans-serif;
-  background: linear-gradient(#9e1387, #c982b7);
+  background: linear-gradient(#cfe4eb, #9beffa);
 }
 
 .login-box {
   position: absolute;
-  top: 50%;
+  top: 46%;
   left: 50%;
   width: 600px;
   padding: 20px;
   transform: translate(-50%, -50%);
-  background: #610359;
+  background: #32708d;
   box-sizing: border-box;
   box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
   border-radius: 10px;
 }
-::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: white;
   opacity: 0.4; /* Firefox */
 }
@@ -228,4 +229,10 @@ html {
 
 .bnew {
   margin-top: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .login-box {
+    top: 52%;
+  }
 }
