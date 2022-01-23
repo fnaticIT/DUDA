@@ -1,28 +1,30 @@
 {
   "files": {
-    "main.css": "/DUDA/static/css/main.ab3cd807.chunk.css",
-    "main.js": "/DUDA/static/js/main.666e2275.chunk.js",
-    "main.js.map": "/DUDA/static/js/main.666e2275.chunk.js.map",
-    "runtime-main.js": "/DUDA/static/js/runtime-main.9af185ab.js",
-    "runtime-main.js.map": "/DUDA/static/js/runtime-main.9af185ab.js.map",
-    "static/js/2.d6deceea.chunk.js": "/DUDA/static/js/2.d6deceea.chunk.js",
-    "static/js/2.d6deceea.chunk.js.map": "/DUDA/static/js/2.d6deceea.chunk.js.map",
-    "index.html": "/DUDA/index.html",
-    "static/css/main.ab3cd807.chunk.css.map": "/DUDA/static/css/main.ab3cd807.chunk.css.map",
-    "static/js/2.d6deceea.chunk.js.LICENSE.txt": "/DUDA/static/js/2.d6deceea.chunk.js.LICENSE.txt",
-    "static/media/Doubt.7d857b7b.png": "/DUDA/static/media/Doubt.7d857b7b.png",
-    "static/media/Expert.24d2db31.png": "/DUDA/static/media/Expert.24d2db31.png",
-    "static/media/pngwing.com (1).ddd8492b.png": "/DUDA/static/media/pngwing.com (1).ddd8492b.png",
-    "static/media/pngwing.com (3).68efc8b7.png": "/DUDA/static/media/pngwing.com (3).68efc8b7.png",
-    "static/media/pngwing.com (4).b297df79.png": "/DUDA/static/media/pngwing.com (4).b297df79.png",
-    "static/media/pngwing.com (5).887f6d49.png": "/DUDA/static/media/pngwing.com (5).887f6d49.png",
-    "static/media/pngwing.com.png": "/DUDA/static/media/pngwing.com.cdcd9b80.png",
-    "static/media/video2.6216020a.mp4": "/DUDA/static/media/video2.6216020a.mp4"
+    "main.css": "/static/css/main.b3bbb35b.chunk.css",
+    "main.js": "/static/js/main.73ce981e.chunk.js",
+    "main.js.map": "/static/js/main.73ce981e.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.8324c4ad.js",
+    "runtime-main.js.map": "/static/js/runtime-main.8324c4ad.js.map",
+    "static/js/2.aaeed3b7.chunk.js": "/static/js/2.aaeed3b7.chunk.js",
+    "static/js/2.aaeed3b7.chunk.js.map": "/static/js/2.aaeed3b7.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.b3bbb35b.chunk.css.map": "/static/css/main.b3bbb35b.chunk.css.map",
+    "static/js/2.aaeed3b7.chunk.js.LICENSE.txt": "/static/js/2.aaeed3b7.chunk.js.LICENSE.txt",
+    "static/media/Doubt.7d857b7b.png": "/static/media/Doubt.7d857b7b.png",
+    "static/media/Expert.24d2db31.png": "/static/media/Expert.24d2db31.png",
+    "static/media/logo.2962c8bc.jpeg": "/static/media/logo.2962c8bc.jpeg",
+    "static/media/logo5.24b5020b.png": "/static/media/logo5.24b5020b.png",
+    "static/media/pngwing.com (1).ddd8492b.png": "/static/media/pngwing.com (1).ddd8492b.png",
+    "static/media/pngwing.com (3).68efc8b7.png": "/static/media/pngwing.com (3).68efc8b7.png",
+    "static/media/pngwing.com (4).b297df79.png": "/static/media/pngwing.com (4).b297df79.png",
+    "static/media/pngwing.com (5).887f6d49.png": "/static/media/pngwing.com (5).887f6d49.png",
+    "static/media/pngwing.com.png": "/static/media/pngwing.com.cdcd9b80.png",
+    "static/media/video2.6216020a.mp4": "/static/media/video2.6216020a.mp4"
   },
   "entrypoints": [
-    "static/js/runtime-main.9af185ab.js",
-    "static/js/2.d6deceea.chunk.js",
-    "static/css/main.ab3cd807.chunk.css",
-    "static/js/main.666e2275.chunk.js"
+    "static/js/runtime-main.8324c4ad.js",
+    "static/js/2.aaeed3b7.chunk.js",
+    "static/css/main.b3bbb35b.chunk.css",
+    "static/js/main.73ce981e.chunk.js"
   ]
 }
