@@ -2,22 +2,22 @@ html {
   height: 100%;
 }
 .bodyx {
-  height: 100vh;
+  height: 750px;
   width: 100vw;
   margin: 0;
   padding: 10;
   font-family: sans-serif;
-  background: linear-gradient(#cfe4eb, #9beffa);
+  background: linear-gradient(#67347a, #9018c783);
 }
 
 .login-box {
   position: absolute;
-  top: 46%;
+  top: 45%;
   left: 50%;
   width: 600px;
   padding: 20px;
   transform: translate(-50%, -50%);
-  background: #32708d;
+  background: darkslateblue;
   box-sizing: border-box;
   box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
   border-radius: 10px;
@@ -30,12 +30,12 @@ html {
 
 @media screen and (max-width: 600px) {
   .login-box {
-    width: 400px;
+    width: 250px;
   }
 }
 
 .login-box h2 {
-  margin: 0 0 30px;
+  margin: 0 0 20px;
   padding: 0;
   color: #fff;
   text-align: center;
@@ -104,7 +104,7 @@ html {
   text-transform: uppercase;
   overflow: hidden;
   transition: 0.5s;
-  margin-top: 40px;
+  margin-top: 22px;
   letter-spacing: 4px;
 }
 
@@ -125,7 +125,7 @@ html {
   left: -100%;
   width: 100%;
   height: 2px;
-  background: linear-gradient(90deg, transparent, #03e9f4);
+  background: linear-gradient(90deg, transparent, #e615e6);
   animation: btn-anim1 1s linear infinite;
 }
 
@@ -144,7 +144,7 @@ html {
   right: 0;
   width: 2px;
   height: 100%;
-  background: linear-gradient(180deg, transparent, #03e9f4);
+  background: linear-gradient(180deg, transparent, #6557e2);
   animation: btn-anim2 1s linear infinite;
   animation-delay: 0.25s;
 }
@@ -164,7 +164,7 @@ html {
   right: -100%;
   width: 100%;
   height: 2px;
-  background: linear-gradient(270deg, transparent, #03e9f4);
+  background: linear-gradient(270deg, transparent, #2618eb);
   animation: btn-anim3 1s linear infinite;
   animation-delay: 0.5s;
 }
@@ -184,7 +184,7 @@ html {
   left: 0;
   width: 2px;
   height: 100%;
-  background: linear-gradient(360deg, transparent, #03e9f4);
+  background: linear-gradient(360deg, transparent, #2b1fc7);
   animation: btn-anim4 1s linear infinite;
   animation-delay: 0.75s;
 }
@@ -233,6 +233,6 @@ html {
 
 @media screen and (max-width: 600px) {
   .login-box {
-    top: 52%;
+    top: 45%;
   }
 }

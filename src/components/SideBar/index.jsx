@@ -12,11 +12,11 @@ const Sidebar = ({isOpen,toggle}) => {
           <SidebarLink to='about' onClick={toggle}>About us</SidebarLink>
           <SidebarLink to='discover' onClick={toggle}>How it works</SidebarLink>
           <SidebarLink to='services' onClick={toggle}>Our Services</SidebarLink>
-          <SidebarLink to='domain' onClick={toggle}>Topics</SidebarLink>
+          <SidebarLink to='domain' onClick={toggle}>Discover Topics</SidebarLink>
           <SidebarLink to='signup' onClick={toggle}>Book a Session</SidebarLink>
         </SidebarMenu>
         <SideBtnWrap>
-          <SidebarRoute to='/signin'>Contact us</SidebarRoute>
+          <SidebarRoute to='/contact'>Contact us</SidebarRoute>
         </SideBtnWrap>
       </SidebarWrapper>
     </SidebarContainer>
