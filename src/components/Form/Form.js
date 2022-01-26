@@ -72,11 +72,11 @@ const Forms = () => {
               <label>Year and Branch</label>
             </div>
             <div className="user-box">
-              <input placeholder="mention the topic related to your doubt for eg:- Computer science" type="text" name="" required="" ref={topic}></input>
+              <input placeholder="Mention the topic related to your doubt for eg:- Computer science" type="text" name="" required="" ref={topic}></input>
               <label>Topic</label>
             </div>
             <div className="user-box">
-              <textarea placeholder="please try to give detail description of your doubt" rows="2" type="text" name="" required="" ref={desc}></textarea>
+              <textarea placeholder="Please try to give detail description of your doubt" rows="2" type="text" name="" required="" ref={desc}></textarea>
               <label>Description</label>
             </div>
             {/* <div className="user-box">

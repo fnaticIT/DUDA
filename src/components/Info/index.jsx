@@ -26,32 +26,27 @@ const Info = ({ lightBg, id, imgStart, topLine, lightText, headline, darkText, d
                           <ul style={{ padding: 25 }}>
                             <li>
                               <strong>
-                                
                                 <span>Counselling</span>
                               </strong>
                             </li>
                             <li>
                               <strong>
-
+                                <span>Web Development</span>
+                              </strong>
+                            </li>
+                            <li>
+                              <strong>
                                 <span>Career guidance</span>
                               </strong>
                             </li>
                             <li>
                               <strong>
-
                                 <span>Photoshop</span>
                               </strong>
                             </li>
                             <li>
                               <strong>
-                                
                                 <span>ML / AI</span>
-                              </strong>
-                            </li>
-                            <li>
-                              <strong>
-                                
-                                <span>Web Development</span>
                               </strong>
                             </li>
                           </ul>
@@ -60,34 +55,33 @@ const Info = ({ lightBg, id, imgStart, topLine, lightText, headline, darkText, d
                           <ul style={{ padding: 25 }}>
                             <li>
                               <strong>
-                                
                                 <span>Academics</span>
                               </strong>
                             </li>
                             <li>
                               <strong>
-                                
                                 <span>DSA</span>
                               </strong>
                             </li>
                             <li>
                               <strong>
-                              
                                 <span>Finance</span>
                               </strong>
                             </li>
                             <li>
                               <strong>
-                                
-                                <span>JEE, GRE ...</span>
+                                <span>JEE, GRE, TOEFL, IELTS, CAT</span>
                               </strong>
                             </li>
                             <li>
                               <strong>
-                                
-                                <span style={{color:"blue"}}>And more ...</span>
+                                <span>CAD</span>
                               </strong>
                             </li>
+
+                            <strong>
+                              <span style={{ color: "#00CED1" }}>and more </span>
+                            </strong>
                           </ul>
                         </div>
                       </div>

@@ -13,17 +13,17 @@ const Services = () => {
         <ServicesCard>
           <ServicesIcon src={Icon1}/>
           <ServicesH2>Simple to use</ServicesH2>
-          <ServicesP>Just fill a simple form mentioning your doubts and its our responsibility to find you perfect expert.</ServicesP>
+          <ServicesP>Just fill a simple form mentioning your doubts and its our responsibility to find you the perfect expert.</ServicesP>
         </ServicesCard>
         <ServicesCard>
         <ServicesIcon src={Icon2}/>
           <ServicesH2>Fast and secure</ServicesH2>
-          <ServicesP>We assure to provide you a mentor within a specific time else your money will be refunded</ServicesP>
+          <ServicesP>We guarantee to provide you with a mentor within a specific time frame, or your money will be refunded.</ServicesP>
         </ServicesCard>
         <ServicesCard>
           <ServicesIcon src={Icon3}/>
           <ServicesH2>Minimal expenses</ServicesH2>
-          <ServicesP>We charge minimum rates to provide best experience for our userss and mentors.Our current plan is Rs 150 per hour.</ServicesP>
+          <ServicesP>We charge minimum rates to provide best experience for our users and mentors. Our current plan is Rs 150 per hour.</ServicesP>
         </ServicesCard>
       </ServicesWrapper>
     </ServicesContainer>

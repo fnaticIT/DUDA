@@ -1,5 +1,5 @@
 import React from "react";
-import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter, FaYoutube, FaMailBulk, FaSearchLocation, FaLocationArrow, FaPhone } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter, FaYoutube, FaMailBulk, FaSearchLocation, FaLocationArrow, FaPhone ,FaTelegram} from "react-icons/fa";
 import { FooterContainer, FooterWrap, FooterLinkWrapper, FooterLinkItems, FooterLinkContainer, FooterLinkTitle, FooterLink, SocialIconLink, SocialIcons, SocialLogo, SocialMedia, SocialMediaWrap, WebsiteRights } from "./FooterElements";
 import { animateScroll as scroll } from "react-scroll";
 
@@ -53,21 +53,21 @@ const Footer = () => {
             </SocialLogo>
             <WebsiteRights>DUDA © {new Date().getFullYear()} All rights reserved.</WebsiteRights>
             <SocialIcons>
-              <SocialIconLink href="/" target="_blank" arial-label="Facebook">
-                <FaFacebook />
+              <SocialIconLink href="https://t.me/+8JmrEAkosXw0YzU1" target="_blank" arial-label="Facebook">
+                <FaTelegram />
               </SocialIconLink>
-              <SocialIconLink href="//www.instagram.com/naman_balai06/" target="_blank" arial-label="Instagram">
-                <FaInstagram />
-              </SocialIconLink>
-              <SocialIconLink href="/" target="_blank" arial-label="Youtube">
-                <FaYoutube />
-              </SocialIconLink>
-              <SocialIconLink href="/" target="_blank" arial-label="Twitter">
-                <FaTwitter />
-              </SocialIconLink>
-              <SocialIconLink href="https://www.linkedin.com/in/naman-balai-10a1481bb/" target="_blank" arial-label="Linkedin">
+              <SocialIconLink href="https://www.linkedin.com/company/dudaexperts" target="_blank" arial-label="Linkedin">
                 <FaLinkedin />
               </SocialIconLink>
+              <SocialIconLink href="//www.instagram.com/dudaexperts/" target="_blank" arial-label="Instagram">
+                <FaInstagram />
+              </SocialIconLink>
+              <SocialIconLink href="https://www.youtube.com/channel/UCLOgv9d8W9lDviexMp0FE2A/featured" target="_blank" arial-label="Youtube">
+                <FaYoutube />
+              </SocialIconLink>
+              {/* <SocialIconLink href="/" target="_blank" arial-label="Twitter">
+                <FaTwitter />
+              </SocialIconLink> */}
             </SocialIcons>
           </SocialMediaWrap>
         </SocialMedia>

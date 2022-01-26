@@ -41,13 +41,13 @@ const Hero = () => {
 
                 .pauseFor(1000)
                 .deleteAll()
-                .typeString("World of Experts awaits You !")
+                .typeString("World of Experts awaits You!")
                 .start();
                 
             }}
           />
         </HeroH1>
-        <HeroP>Have a Doubt? In need of counselling? Just Book a session and get helped by experts from top IITS / NITS.</HeroP>
+        <HeroP>Have a Doubt? In need of counselling? Just book a session and get helped by experts from top IITS / NITS.</HeroP>
         <HeroBtnWrapper>
           <Button to="signup" onMouseEnter={onHover} onMouseLeave={onHover} primary="true" dark="true" smooth={true} duration={500} spy={true} exact="true" offset={-80}>
             Book Session {hover ? <ArrowForward /> : <ArrowRight />}
